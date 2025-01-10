@@ -1,0 +1,29 @@
+/* O ideal para começar um projeto é criando os arquivos e verificando todas as informações específicas daquele projeto, por exemplo, cores padrões, tipos e tamanhos de fontes, fazer a linkagem com os arquivos necessários, nesse caso, com o "styles.css" e após isso, realmente começar o projeto. */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+/* A criação do ":root" para criar os padrões/variáveis de cores é muito importante, pois é através dela que podemos adicionar/editar com facilidade as cores do nosso projeto e ajuda muito na produtividade e facilidade nas mudanças, caso seja necessário, imagine que a empresa não tem essas variáveis padrão de cores e resolve mudar as cores do site, por conta de uma data específica, Natal, por exemplo, e resolve mudar tudo para vermelho, imagine o quão improdutivo seria mudar para as cores do Natal e depois retornar com as cores do site mesmo? */
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+
+/* Este asterísco é como se a gente desse um reset nas configurações de fábrica do browser/navegador, na qual pode nos atrapalhar ao longo projeto, é como se a gente resetasse/zerasse a estrutura base do navegador. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: font-family: "Lexend Deca", serif;
+    font-family: font-family: "Big Shoulders Display", serif; */
+}
+
+body {
+    font-size: 15px;
+}
