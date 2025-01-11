@@ -20,10 +20,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: font-family: "Lexend Deca", serif;
-    font-family: font-family: "Big Shoulders Display", serif; */
+    font-family: font-family: "Lexend Deca", serif;
 }
 
 body {
     font-size: 15px;
+    background-color: var(--very-light-gray);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+}
+
+.three-column-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    padding: 2rem;
+}
+
+h3 {
+    font-family: font-family: "Big Shoulders Display", serif;
 }
