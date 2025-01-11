@@ -61,7 +61,7 @@ body {
 }
 
 .form-wrapper button.try-btn {
-    font-size: 0.8rem;
+    font-size: 15px;
     background-color: var(--accent-blue);
     color: var(--white);
     border-radius: 0.5rem;
