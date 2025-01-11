@@ -24,28 +24,28 @@
 }
 
 body {
-    font-size: 15px;
+    font-size: 14px;
     background-color: var(--very-light-gray);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 1.5rem;
+    padding: 3rem 1.5rem;
 }
 
 .three-column-cards {
     display: flex;
-    flex-direction: column;
-    border-radius: 15px;
+    flex-direction: column; /* Deixando-o em coluna, para mobile */
+    border-radius: 12px;
     overflow: hidden;
 }
 
 .card {
-    padding: 2.5rem;
+    padding: 2.2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .sedans {
@@ -61,7 +61,7 @@ body {
 h3 {
     font-family: "Big Shoulders Display", serif;
     color: var(--very-light-gray);
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 p {
@@ -71,8 +71,8 @@ p {
 button {
     background-color: var(--very-light-gray);
     border: none;
-    padding: 1rem;
-    border-radius: 12px;
+    padding: 0.8rem;
+    border-radius: 10px;
 }
 
 .sedans button {
