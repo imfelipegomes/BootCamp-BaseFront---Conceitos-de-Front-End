@@ -42,15 +42,16 @@ body {
 
 .text-wrapper h1 {
     color: var(--white);
-    text-align: center;
+    text-align: left;
     font-size: 1.7rem;
     font-weight: 800;
 }
 
 .text-wrapper p {
     color: var(--white);
-    text-align: center;
+    text-align: left;
     font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .form-wrapper {
